@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="OrientadoObjetos/src"/>
+	<classpathentry kind="src" path="Pactica23/src"/>
+	<classpathentry kind="src" path="Practica20/src"/>
+	<classpathentry kind="src" path="Practica21/src"/>
+	<classpathentry kind="src" path="Practica22/src"/>
+	<classpathentry kind="src" path="ProyectoIntegrador/src"/>
+	<classpathentry kind="output" path="OrientadoObjetos/bin"/>
+</classpath>
