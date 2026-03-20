@@ -8,6 +8,7 @@ public class Libro {
     private int numPaginas;
 
 
+
     @Override
     public String toString() {
         return "El Libro " + titulo+ " con ISBN " + isbn + " creado por el autor " + autor + " tiene " + numPaginas + " paginas";

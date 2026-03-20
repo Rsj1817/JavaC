@@ -14,15 +14,18 @@ public class Colecciones {
         //set objetos que no estan repetidos
         //HashSet no tiene un orden
         Set<String> conjunto1  = new HashSet<String>();
-        conjunto1.add("Hola");t
+        conjunto1.add("Hola");
 
         //List si admite elementos duplicados y tiene una posicion
         //ArrayList
         List<Libro> conjunto2 = new ArrayList<Libro>();
         
+        
         //Map
         //HashMap
         Map<String, Libro> conjunto3 = new HashMap<String, Libro>();
+        
+
         
 
     }
