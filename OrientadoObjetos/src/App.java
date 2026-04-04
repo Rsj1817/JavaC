@@ -9,7 +9,6 @@ public class App {
         Empleado empleado2 = new Empleado("20243DS185","Luis angel",1500,nacionalidad1);
         System.out.println( empleado1.getClass());
 
-  
 
         if(empleado1.equals(empleado2)){
             System.out.println("iguales");
