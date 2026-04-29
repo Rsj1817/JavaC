@@ -8,10 +8,10 @@ public class AccesoDB {
 
     public static void main(String[] args) {
         
-        //insertarAlumno();
+        insertarAlumno();
         //actualizarAlumno();
         //eliminarAlumno();
-        seleccionarAlumno();
+        //seleccionarAlumno();
 
 
 
@@ -19,7 +19,7 @@ public class AccesoDB {
 
 
     public static void insertarAlumno(){
-    
+        
         Scanner sc = new Scanner(System.in);
         System.out.println("Insertar el dni del Alumno");
         String dni = sc.nextLine();

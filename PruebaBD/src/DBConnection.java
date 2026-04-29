@@ -3,7 +3,7 @@ import java.sql.DriverManager;
 
 public class DBConnection {
 
-    static String bd = "prueba";
+    static String bd = "alumnos";
     static String port = "3306";
     static String login = "root";
     static String password = "rootroot";
