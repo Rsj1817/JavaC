@@ -1,0 +1,19 @@
+{
+  "name": "Entorno Java para Concesionario",
+  "image": "mcr.microsoft.com/devcontainers/java:17",
+  "features": {
+    // Esto permite que el contenedor de Java pueda hablar con tu Docker local
+    // para poder encender MariaDB usando tu docker-compose.yml
+    "ghcr.io/devcontainers/features/docker-outside-of-docker:1": {}
+  },
+  "customizations": {
+    "vscode": {
+      // Estas son las extensiones que VS Code instalará automáticamente
+      // dentro del contenedor para que tu código Java funcione perfecto.
+      "extensions": [
+        "vscjava.vscode-java-pack",
+        "ms-azuretools.vscode-docker"
+      ]
+    }
+  }
+}

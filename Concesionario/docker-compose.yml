@@ -1,0 +1,21 @@
+
+services:
+  mariadb:
+    image: mariadb:latest
+    container_name: base_datos_concesionario
+    environment:
+      # Configuramos el usuario root, su contraseña y la BD que debe crear
+      - MARIADB_ROOT_PASSWORD=rootroot
+      - MARIADB_DATABASE=concesionario
+    ports:
+      # Mapeamos el puerto 3307 de tu PC (el que pusiste en DBconnection.java)
+      # al puerto 3306 del contenedor (que es el puerto por defecto donde corre MariaDB)
+      - "3307:3306"
+    volumes:
+      # Guardamos los datos en un volumen para que no se borren si apagamos el contenedor
+      - mariadb-data:/var/lib/mysql
+      # Ejecutamos el script inicial automáticamente la primera vez que se crea la BD
+      - ./init.sql:/docker-entrypoint-initdb.d/init.sql
+
+volumes:
+  mariadb-data:

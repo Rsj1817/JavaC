@@ -1,0 +1,22 @@
+version: '3.9'
+services:
+  maria:
+    build: .
+    ports:
+      -"3030:3030"
+    links:
+      - monguito
+monguito:
+  image: mongo 
+  ports:
+    - "27027:27017"
+  enviroment:
+    - MONGO_INITDB_ROOT_USARNAME=nico
+    - M=d
+    volumes: 
+      -mongo-data:/data/db
+      # mysql /var/lib/mysql
+      #postgress /var/lib/postgressql/data
+
+volumes:
+  mongo-data:

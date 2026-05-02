@@ -5,7 +5,7 @@ import java.sql.DriverManager;
 public class DBconnection {
 
     static String bd = "concesionario";
-    static String port = "3306";
+    static String port = "3307";
     static String login = "root";
     static String password = "rootroot";
     static String url = "jdbc:mariadb://localhost:" + port + "/" + bd;
