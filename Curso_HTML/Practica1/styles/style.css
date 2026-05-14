@@ -1,0 +1,39 @@
+body{
+    background-color: rgb(96, 109, 119);
+    margin: 10px 10%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1{
+    font-size: 300%;
+    letter-spacing: 10px;
+    text-align: center;
+}
+
+h2{
+    background-color: rgb(40, 43, 45);
+    color: white;
+    font-size: 200%;
+    padding: 5px;
+}
+
+.contenedorPrincipal{
+    display: flex;
+    margin: 10px 100px;
+}
+
+.contenedorTextos{
+    text-align: justify;
+    text-indent: 30px;
+    padding: 30px;
+}
+
+.letrasRojas{
+    color: rgb(255, 44, 44);
+
+}
+
+.letrasBlancas{
+    background-color: rgb(140, 153, 164);
+    font-weight: bold;
+}
