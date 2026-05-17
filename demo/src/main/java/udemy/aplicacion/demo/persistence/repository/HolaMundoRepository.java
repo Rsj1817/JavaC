@@ -4,8 +4,11 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
+import org.springframework.stereotype.Repository;
+
 import udemy.aplicacion.demo.persistence.entities.Persona;
 
+@Repository
 public class HolaMundoRepository {
 
 
