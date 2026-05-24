@@ -6,6 +6,9 @@ var b = 10;
 a = 20;
 b = 20;
 */
+
+alert('Hola desde la alerta');
+
 let a = 20;
 let b = 20;
 
@@ -26,5 +29,11 @@ console.table({a,b,c,d,e});
 
 const saludo = d + e;
 
+
+//ejemplo=34;
+
+console.log(ejemplo);
+
+let ejemplo = 12;
 
 

@@ -1,8 +1,15 @@
 package udemy.aplicacion.demo.persistence.entities;
 
+
+import jakarta.persistence.Id;
+import jakarta.persistence.Entity;
+
+@Entity(name = "persona")
 public class Persona {
 
+    @Id
     private String nombre;
+
     private int edad;
 
     //contructores
