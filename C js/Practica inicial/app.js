@@ -36,10 +36,5 @@ console.log(ejemplo);
 
 let ejemplo = 12;
 
-Boolean
-Number
-String
-Symbol
-
 
 
