@@ -37,4 +37,7 @@ console.log(ejemplo);
 let ejemplo = 12;
 
 
+alert('Esta es una alerta por favor ponte las pilas');
+
+
 
