@@ -24,6 +24,33 @@ public class Primitivos {
         float realFloat = 2.34e8f;
         System.out.println("El valor es " + realFloat);
 
+        
+
     }
 
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

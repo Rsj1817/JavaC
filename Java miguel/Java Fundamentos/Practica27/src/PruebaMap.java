@@ -37,6 +37,7 @@ public class PruebaMap {
         }
 
         System.out.println("El numero de creditos que estas curson es " + totalCreditos);
+        
 
     }
 
