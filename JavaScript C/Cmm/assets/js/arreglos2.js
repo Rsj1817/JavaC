@@ -30,3 +30,4 @@ console.log({juegosBorrados, juegos});
 
 let zeusIndex = juegos.indexOf('ZEUS');
 console.log(zeusIndex);
+
