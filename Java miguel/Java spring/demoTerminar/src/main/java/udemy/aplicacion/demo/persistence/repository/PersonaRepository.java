@@ -8,5 +8,5 @@ import udemy.aplicacion.demo.persistence.entities.Persona;
 @Service
 public interface PersonaRepository extends JpaRepository<Persona, String>{
 
-
+    Persona findByNombre(String nombre);
 }
