@@ -3,16 +3,11 @@ function saludar(nombre){
     console.log('Hola ' + nombre); 
 }
 
-/*
-const saludar2 = function (){
-    console.log('Hola mundo');
-}*/
+
+const saludar2 = function (nombre){
+    console.log('Hola ' + nombre);
+}
 
 
 saludar('Fernando');
-//saludar2();
-
-// **rrrtr
-// todo ese we
-// ! gr
-// ? dsfsd
+saludar2('Jose');

@@ -1,0 +1,37 @@
+body{
+    background-color: #D3DEDE;
+    margin: 10px 10%;
+    font-family: 'Cascadia code', Times, serif;
+}
+
+h1{
+    font-size: 300%;
+    letter-spacing: 10px;
+    text-align: center;
+}
+
+h2{
+    background-color: #808080;
+    color: white;
+    font-size: 200%;
+}
+
+.container{
+    display: flex;
+    margin: 10px 10%;
+}
+
+.txt_container{
+    text-align: justify;
+    text-indent: 30px;
+    padding: 10px;
+}
+
+.red_txt{   
+    color: red;
+}
+
+.white_txt{
+    background-color: white;
+    font-weight: bold;
+}
